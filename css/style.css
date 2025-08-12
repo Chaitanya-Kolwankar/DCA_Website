@@ -105,7 +105,7 @@
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-    color: var(--bs-primary);
+    color: var(--bs-secondary);
 }
 
 .navbar-light .navbar-brand img {
@@ -207,7 +207,7 @@
         height: 2px;
         bottom: -1px;
         left: 50%;
-        background: var(--bs-primary);
+        background: var(--bs-secondary);
         transition: .5s;
     }
 
@@ -222,7 +222,7 @@
         left: 50%;
         transform: translateX(-50%);
         border: 10px solid;
-        border-color: transparent transparent var(--bs-primary) transparent;
+        border-color: transparent transparent var(--bs-secondary) transparent;
         opacity: 0;
         transition: 0.5s;
     }
@@ -492,7 +492,7 @@
     top: -30px;
     right: 0;
     border-radius: 10px;
-    background: var(--bs-secondary);
+    background: var(--bs-primary);
 
 }
 
@@ -504,7 +504,7 @@
     left: -30px;
     bottom: 30px;
     border-radius: 10px;
-    background: var(--bs-secondary);
+    background: var(--bs-primary);
 }
 
 .about .about-img .about-exp {
@@ -514,9 +514,9 @@
     padding: 25px;
     font-size: 20px;
     font-weight: bold;
-    background: var(--bs-secondary);
+    background: var(--bs-primary);
     color: var(--bs-white);
-    border: 1px solid var(--bs-secondary);
+    border: 1px solid var(--bs-primary);
     margin-top: -30px;
     margin-left: -30px;
     border-radius: 10px;
@@ -613,7 +613,7 @@
     width: 100px;
     height: 100px;
     border-radius: 50px;
-    background: var(--bs-primary);
+    background: var(--bs-secondary);
     display: inline-flex;
     align-items: center;
     justify-content: center;
