@@ -1,296 +1,478 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>DCA</title>
-    <link rel="icon" type="image/png" href="img/favicon.ico">
-    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+    <link rel="icon" type="image/png" href="img/favicon.ico" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
 
     <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
-        rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Icon Font Stylesheet -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
-</head>
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
 
-<body>
-
+  <body>
     <!-- Spinner Start -->
-    <div id="spinner"
-        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-            <span class="sr-only">Loading...</span>
-        </div>
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-border text-primary"
+        style="width: 3rem; height: 3rem"
+        role="status"
+      >
+        <span class="sr-only">Loading...</span>
+      </div>
     </div>
     <!-- Spinner End -->
 
     <!-- Navbar & Hero Start -->
     <div class="container-fluid position-relative p-0">
-        <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
-            <a href="" class="navbar-brand p-0">
-                <!-- <h1 class="text-primary"><i class="fas fa-hand-holding-water me-3"></i>Acuas</h1> -->
-                <img src="img/logo.png" alt="Logo">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                <span class="fa fa-bars"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="navbar-nav ms-auto py-0">
-                    <a href="index.html" class="nav-item nav-link">Home</a>
-                    <a href="about.html" class="nav-item nav-link active">About</a>
-                    <a href="service.html" class="nav-item nav-link">Service</a>
-                    <a href="contact.html" class="nav-item nav-link">Contact</a>
-                </div>
-            </div>
-        </nav>
-
-        <!-- Header Start -->
-        <div class="container-fluid bg-breadcrumb">
-            <div class="container text-center py-5" style="max-width: 900px;">
-                <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">About Us</h4>
-                <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
-                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                    <li class="breadcrumb-item"><a href="javascript:void(0);">Pages</a></li>
-                    <li class="breadcrumb-item active text-secondary">About</li>
-                </ol>
-            </div>
+      <nav
+        class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0"
+      >
+        <a href="" class="navbar-brand p-0">
+          <!-- <h1 class="text-primary"><i class="fas fa-hand-holding-water me-3"></i>Acuas</h1> -->
+          <img src="img/logo.png" alt="Logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+        >
+          <span class="fa fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav ms-auto py-0">
+            <a href="index.html" class="nav-item nav-link">Home</a>
+            <a href="about.html" class="nav-item nav-link active">About</a>
+            <a href="service.html" class="nav-item nav-link">Service</a>
+            <a href="contact.html" class="nav-item nav-link">Contact</a>
+          </div>
         </div>
-        <!-- Header End -->
+      </nav>
+
+      <!-- Header Start -->
+      <div class="container-fluid bg-breadcrumb">
+        <div class="container text-center py-5" style="max-width: 900px">
+          <h4
+            class="text-white display-4 mb-4 wow fadeInDown"
+            data-wow-delay="0.1s"
+          >
+            About Us
+          </h4>
+          <ol
+            class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown"
+            data-wow-delay="0.3s"
+          >
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item">
+              <a href="javascript:void(0);">Pages</a>
+            </li>
+            <li class="breadcrumb-item active text-secondary">About</li>
+          </ol>
+        </div>
+      </div>
+      <!-- Header End -->
     </div>
     <!-- Navbar & Hero End -->
 
     <!-- About Start -->
     <div class="container-fluid about overflow-hidden py-5">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
-                    <div class="about-img rounded h-100">
-                        <img src="img/aboutus.png" class="img-fluid rounded h-100 w-100" alt=""
-                            style="object-fit: cover;">
-                        <div class="about-exp"><span>20 Years Experiance</span></div>
-                    </div>
-                </div>
-                <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
-                    <div class="about-item">
-                        <h4 class="text-primary text-uppercase">About Us</h4>
-                        <h3 class="display-6 mb-3">Your Trusted Partner in Specialty Chemicals.</h3>
-                        <p class="mb-4 text-justify">Founded  with a commitment to advancing <b>chemical innovation, DCA Fine
-                                Chem Private Limited</b> has become a trusted and growing force in the fine and
-                            specialty chemicals industry. With decades of expertise and a forward-thinking approach, we
-                            cater to a wide spectrum of industries—including pharmaceuticals, agriculture, paints, and
-                            plastics—with <b>high-quality fine chemicals, bulk intermediates, and specialty solutions.</b></p>
-                        <p class="mb-4 text-justify">Backed by a strong foundation of innovation, precision, and
-                            commitment to excellence, our solutions empower industries to achieve optimal performance
-                            and sustainability. We bring <b>world-class chemical expertise</b> right to your
-                            doorstep—efficiently, safely, and on time.</p>
-                        <p class="mb-4 text-justify">At DCA, we blend scientific excellence with ethical responsibility
-                            to create value for our customers and partners worldwide.</p>
-                    </div>
-                </div>
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
+            <div class="about-img rounded h-100">
+              <img
+                src="img/aboutus.png"
+                class="img-fluid rounded h-100 w-100"
+                alt=""
+                style="object-fit: cover"
+              />
+              <div class="about-exp"><span>Industry Specialist</span></div>
             </div>
+          </div>
+          <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
+            <div class="about-item">
+              <h4 class="text-secondary text-uppercase">About Us</h4>
+              <h3 class="display-6 mb-3">
+                Your Trusted Partner in Specialty Chemicals.
+              </h3>
+              <p class="mb-4 text-justify">
+                Founded with a commitment to advancing
+                <b>chemical innovation, DCA Fine Chem Private Limited</b> has
+                become a trusted and growing force in the fine and specialty
+                chemicals industry. With decades of expertise and a
+                forward-thinking approach, we cater to a wide spectrum of
+                industries—including pharmaceuticals, agriculture, paints, and
+                plastics—with
+                <b
+                  >high-quality fine chemicals, bulk intermediates, and
+                  specialty solutions.</b
+                >
+              </p>
+              <p class="mb-4 text-justify">
+                Backed by a strong foundation of innovation, precision, and
+                commitment to excellence, our solutions empower industries to
+                achieve optimal performance and sustainability. We bring
+                <b>world-class chemical expertise</b> right to your
+                doorstep—efficiently, safely, and on time.
+              </p>
+              <p class="mb-4 text-justify">
+                At DCA, we blend scientific excellence with ethical
+                responsibility to create value for our customers and partners
+                worldwide.
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
     <!-- About End -->
 
     <!-- Fact Counter -->
     <div class="container-fluid counter py-5">
-        <div class="container py-5">
-            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                <h4 class="text-uppercase text-secondary">Our Core Values</h4>
-                <p class="b-3 text-white" style="font-size: larger;">These values guide our actions, define our culture, and ensure that we remain aligned with the expectations of our customers, partners, and the environment.</>
-            </div>
-            <div class="row g-5">
-                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="counter-item">
-                        <div class="counter-item-icon mx-auto">
-                            <i class="fas fa-clipboard-check fa-3x text-white"></i>
-                        </div>
-                        <h4 class="text-white my-4">Quality</h4>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
-                    <div class="counter-item">
-                        <div class="counter-item-icon mx-auto">
-                            <i class="fas fa-ribbon fa-3x text-white"></i>
-                        </div>
-                        <h4 class="text-white my-4">Integrity</h4>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
-                    <div class="counter-item">
-                        <div class="counter-item-icon mx-auto">
-                            <i class="fab fa-searchengin fa-3x text-white"></i>
-                        </div>
-                        <h4 class="text-white my-4">Innovation</h4>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
-                    <div class="counter-item">
-                        <div class="counter-item-icon mx-auto">
-                            <i class="far fa-handshake fa-3x text-white"></i>
-                        </div>
-                        <h4 class="text-white my-4">Responsibility</h4>
-                    </div>
-                </div>
-            </div>
+      <div class="container py-5">
+        <div
+          class="text-center mx-auto pb-5 wow fadeInUp"
+          data-wow-delay="0.2s"
+          style="max-width: 800px"
+        >
+          <h4 class="text-uppercase text-secondary">Our Core Values</h4>
+          <p class="b-3 text-white" style="font-size: larger">
+            These values guide our actions, define our culture, and ensure that
+            we remain aligned with the expectations of our customers, partners,
+            and the environment.
+          </p>
         </div>
+        <div class="row g-5">
+          <div
+            class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp"
+            data-wow-delay="0.2s"
+          >
+            <div class="counter-item">
+              <div class="counter-item-icon mx-auto">
+                <i class="fas fa-clipboard-check fa-3x text-white"></i>
+              </div>
+              <h4 class="text-white my-4">Quality</h4>
+            </div>
+          </div>
+          <div
+            class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp"
+            data-wow-delay="0.4s"
+          >
+            <div class="counter-item">
+              <div class="counter-item-icon mx-auto">
+                <i class="fas fa-ribbon fa-3x text-white"></i>
+              </div>
+              <h4 class="text-white my-4">Integrity</h4>
+            </div>
+          </div>
+          <div
+            class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp"
+            data-wow-delay="0.6s"
+          >
+            <div class="counter-item">
+              <div class="counter-item-icon mx-auto">
+                <i class="fab fa-searchengin fa-3x text-white"></i>
+              </div>
+              <h4 class="text-white my-4">Innovation</h4>
+            </div>
+          </div>
+          <div
+            class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp"
+            data-wow-delay="0.8s"
+          >
+            <div class="counter-item">
+              <div class="counter-item-icon mx-auto">
+                <i class="far fa-handshake fa-3x text-white"></i>
+              </div>
+              <h4 class="text-white my-4">Responsibility</h4>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- Fact Counter -->
 
-    <!-- feature Start -->
-    <div class="container-fluid blog pb-5 pt-5">
-        <div class="container pb-5">
-            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                <h4 class="text-uppercase text-primary">Why Choose Us</h4>
-                <h3 class="display-6 text-capitalize mb-3">Our Commitment to Quality, Service, and Partnerships</h3>
-            </div>
-            <div class="row g-4 justify-content-center">
-                <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="blog-item">
-                        <div class="blog-img">
-                            <img src="img/WCU1.jpg" class="img-fluid rounded-top w-100" alt="">
-                        </div>
-                        <div class="blog-content rounded-bottom p-4">
-                            <a href="javascript:void(0);" class="h4 d-inline-block mb-3">Proudly Certified for
-                                Consistent Quality Excellence</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.4s">
-                    <div class="blog-item">
-                        <div class="blog-img">
-                            <img src="img/WCU2.jpg" class="img-fluid rounded-top w-100" alt="">
-                        </div>
-                        <div class="blog-content rounded-bottom p-4">
-                            <a href="javascript:void(0);" class="h4 d-inline-block mb-3">Customized Solutions for
-                                Specific Industrial Needs</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.6s">
-                    <div class="blog-item">
-                        <div class="blog-img">
-                            <img src="img/WCU3.jpg" class="img-fluid rounded-top w-100" alt="">
-                        </div>
-                        <div class="blog-content rounded-bottom p-4">
-                            <a href="javascript:void(0);" class="h4 d-inline-block mb-3">Reliable Supply Chain & Timely
-                                Global Delivery</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.6s">
-                    <div class="blog-item">
-                        <div class="blog-img">
-                            <img src="img/WCU4.jpg" class="img-fluid rounded-top w-100" alt="">
-                        </div>
-                        <div class="blog-content rounded-bottom p-4">
-                            <a href="javascript:void(0);" class="h4 d-inline-block mb-3">Customer-Centric Approach with
-                                Proven Industry Partnerships</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <!-- Team Start -->
+    <div class="container-fluid team pb-5 pt-5">
+      <div class="container pb-5">
+        <div
+          class="text-center mx-auto pb-5 wow fadeInUp"
+          data-wow-delay="0.2s"
+          style="max-width: 800px"
+        >
+          <h4 class="text-uppercase text-secondary">Mission & Vision</h4>
+          <h3 class="display-6 text-capitalize mb-3">
+           The Guiding Principles of Our Company: Vision and Mission
+          </h3>
         </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-6 col-xl-6 wow fadeInUp"
+            data-wow-delay="0.2s" >
+            <div class="team-item p-4">
+              <div class="team-inner rounded">
+                <div class="team-img">
+                  <img
+                    src="img/vision.jpg"
+                    class="img-fluid rounded-top w-100"
+                    alt="Image"/>
+                </div>
+                <div class="bg-light rounded-bottom text-center py-4">
+                  <h4 class="mb-3">VISION</h4>
+                  <p class="mb-0">To become a globally recognized leader in specialty chemicals through continuous innovation and ethical practices. We strive to lead with purpose, bringing meaningful change to the chemical industry.This is achieved through our unwavering commitment to sustainability, integrity, and building a legacy of excellence for future generations.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6 col-xl-6 wow fadeInUp"
+            data-wow-delay="0.4s" >
+            <div class="team-item p-4">
+              <div class="team-inner rounded">
+                <div class="team-img">
+                  <img
+                    src="img/mission.jpg"
+                    class="img-fluid rounded-top w-100"
+                    alt="Image"
+                  />
+                </div>
+                <div class="bg-light rounded-bottom text-center py-4">
+                  <h4 class="mb-3">Mission</h4>
+                  <p class="mb-0">Our mission is to deliver superior quality chemical products that exceed industry standards. We also provide customer-centric solutions with agility and technical precision, while upholding sustainable, safe, and compliant manufacturing processes. Furthermore, we are committed to fostering long-term partnerships with our clients to ensure mutual success.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Team End -->
+
+    <!-- feature Start -->
+    <div class="container-fluid blog pb-5">
+      <div class="container pb-5">
+        <div
+          class="text-center mx-auto pb-5 wow fadeInUp"
+          data-wow-delay="0.2s"
+          style="max-width: 800px"
+        >
+          <h4 class="text-uppercase text-secondary">Why Choose Us</h4>
+          <h3 class="display-6 text-capitalize mb-3">
+            Our Commitment to Quality, Service, and Partnerships
+          </h3>
+        </div>
+        <div class="row g-4 justify-content-center">
+          <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="blog-item">
+              <div class="blog-img">
+                <img
+                  src="img/WCU1.jpg"
+                  class="img-fluid rounded-top w-100"
+                  alt=""
+                />
+              </div>
+              <div class="blog-content rounded-bottom p-4">
+                <a href="javascript:void(0);" class="h4 d-inline-block mb-3"
+                  >Proudly Certified for Consistent Quality Excellence</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.4s">
+            <div class="blog-item">
+              <div class="blog-img">
+                <img
+                  src="img/WCU2.jpg"
+                  class="img-fluid rounded-top w-100"
+                  alt=""
+                />
+              </div>
+              <div class="blog-content rounded-bottom p-4">
+                <a href="javascript:void(0);" class="h4 d-inline-block mb-3"
+                  >Customized Solutions for Specific Industrial Needs</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.6s">
+            <div class="blog-item">
+              <div class="blog-img">
+                <img
+                  src="img/WCU3.jpg"
+                  class="img-fluid rounded-top w-100"
+                  alt=""
+                />
+              </div>
+              <div class="blog-content rounded-bottom p-4">
+                <a href="javascript:void(0);" class="h4 d-inline-block mb-3"
+                  >Reliable Supply Chain & Timely Global Delivery</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.6s">
+            <div class="blog-item">
+              <div class="blog-img">
+                <img
+                  src="img/WCU4.jpg"
+                  class="img-fluid rounded-top w-100"
+                  alt=""
+                />
+              </div>
+              <div class="blog-content rounded-bottom p-4">
+                <a href="javascript:void(0);" class="h4 d-inline-block mb-3"
+                  >Customer-Centric Approach with Proven Industry
+                  Partnerships</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- feature End -->
 
-     <!-- Footer Start -->
-    <div class="container-fluid footer py-2 wow fadeIn counter" data-wow-delay="0.2s">
-        <div class="container py-5">
-            <div class="row g-5 mb-5 align-items-center">
-                <div class="col-lg-7">
-                    <div class="d-flex align-items-center justify-content-center justify-content-lg-end">
-                        <a class="btn btn-secondary btn-md-square rounded-circle me-3" href=""><i
-                                class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-secondary btn-md-square rounded-circle me-3" href=""><i
-                                class="fab fa-twitter"></i></a>
-                        <a class="btn btn-secondary btn-md-square rounded-circle me-3" href=""><i
-                                class="fab fa-instagram"></i></a>
-                        <a class="btn btn-secondary btn-md-square rounded-circle me-0" href=""><i
-                                class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
+    <!-- Footer Start -->
+    <div
+      class="container-fluid footer py-2 wow fadeIn counter"
+      data-wow-delay="0.2s"
+    >
+      <div class="container py-5">
+        <div class="row g-5 mb-5 align-items-center">
+          <div class="col-lg-7">
+            <div
+              class="d-flex align-items-center justify-content-center justify-content-lg-end"
+            >
+              <a
+                class="btn btn-secondary btn-md-square rounded-circle me-3"
+                href=""
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a
+                class="btn btn-secondary btn-md-square rounded-circle me-3"
+                href=""
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a
+                class="btn btn-secondary btn-md-square rounded-circle me-3"
+                href=""
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a
+                class="btn btn-secondary btn-md-square rounded-circle me-0"
+                href=""
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
             </div>
-            <div class="row g-5">
-                <div class="col-md-6 col-lg-6 col-xl-3 align-content-center">
-                    <div class="logo shadow elem_hover">
-                        <img src="img/logo.png" alt="Logo" style="max-height: 160px;">
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6 col-xl-3">
-                    <div class="footer-item d-flex flex-column">
-                        <div class="footer-item">
-                            <h3 class="text-white mb-4">DCA
-                            </h3>
-                            <p class="mb-3 text-justify">Backed by a strong foundation of innovation, precision, and
-                                commitment to excellence, our solutions empower industries to achieve optimal
-                                performance and sustainability. We bring world-class chemical expertise right to your
-                                doorstep—efficiently, safely, and on time.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6 col-xl-3">
-                    <div class="footer-item d-flex flex-column ms-5">
-                        <h4 class="text-white mb-4">Explore</h4>
-                        <a href="#"><i class="fas fa-angle-right me-2"></i>Home</a>
-                        <a href="#"><i class="fas fa-angle-right me-2"></i> About</a>
-                        <a href="#"><i class="fas fa-angle-right me-2"></i>services</a>
-                        <a href="#"><i class="fas fa-angle-right me-2"></i> Contact</a>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6 col-xl-3">
-                    <div class="footer-item d-flex flex-column">
-                        <h4 class="text-white mb-4">Contact Info</h4>
-                        <a href="#"><i class="fa fa-map-marker-alt me-2"></i> 123 Street, New York, USA</a>
-                        <a href="mailto:info@example.com"><i class="fas fa-envelope me-2"></i> info@example.com</a>
-                        <a href="mailto:info@example.com"><i class="fas fa-envelope me-2"></i> info@example.com</a>
-                        <a href="tel:+012 345 67890"><i class="fas fa-phone me-2"></i> +012 345 67890</a>
-                        <a href="tel:+012 345 67890" class="mb-3"><i class="fas fa-print me-2"></i> +012 345 67890</a>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+        <div class="row g-5">
+          <div class="col-md-6 col-lg-6 col-xl-3 align-content-center">
+            <div class="logo shadow elem_hover">
+              <img src="img/logo.png" alt="Logo" style="max-height: 160px" />
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6 col-xl-3">
+            <div class="footer-item d-flex flex-column">
+              <div class="footer-item">
+                <h3 class="text-white mb-4">DCA</h3>
+                <p class="mb-3 text-justify">
+                  Backed by a strong foundation of innovation, precision, and
+                  commitment to excellence, our solutions empower industries to
+                  achieve optimal performance and sustainability. We bring
+                  world-class chemical expertise right to your
+                  doorstep—efficiently, safely, and on time.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6 col-xl-3">
+            <div class="footer-item d-flex flex-column ms-5">
+              <h4 class="text-white mb-4">Explore</h4>
+              <a href="#"><i class="fas fa-angle-right me-2"></i>Home</a>
+              <a href="#"><i class="fas fa-angle-right me-2"></i> About</a>
+              <a href="#"><i class="fas fa-angle-right me-2"></i>services</a>
+              <a href="#"><i class="fas fa-angle-right me-2"></i> Contact</a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6 col-xl-3">
+            <div class="footer-item d-flex flex-column">
+              <h4 class="text-white mb-4">Contact Info</h4>
+              <a href="#"
+                ><i class="fa fa-map-marker-alt me-2"></i> 123 Street, New York,
+                USA</a
+              >
+              <a href="mailto:info@example.com"
+                ><i class="fas fa-envelope me-2"></i> info@example.com</a
+              >
+              <a href="mailto:info@example.com"
+                ><i class="fas fa-envelope me-2"></i> info@example.com</a
+              >
+              <a href="tel:+012 345 67890"
+                ><i class="fas fa-phone me-2"></i> +012 345 67890</a
+              >
+              <a href="tel:+012 345 67890" class="mb-3"
+                ><i class="fas fa-print me-2"></i> +012 345 67890</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- Footer End -->
 
     <!-- Copyright Start -->
     <div class="container-fluid copyright py-2">
-        <div class="container">
-            <div class="row g-4 align-items-center">
-                <div class="col-md-6 text-center text-md-start mb-md-0">
-                    <span class="text-body"><a href="#" class="border-bottom text-white"><i
-                                class="fas fa-copyright text-light me-2"></i>DCA</a>, All right
-                        reserved.</span>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row g-4 align-items-center">
+          <div class="col-md-6 text-center text-md-start mb-md-0">
+            <span class="text-body"
+              ><a href="#" class="border-bottom text-white"
+                ><i class="fas fa-copyright text-light me-2"></i>DCA</a
+              >, All right reserved.</span
+            >
+          </div>
         </div>
+      </div>
     </div>
     <!-- Copyright End -->
 
-
     <!-- Back to Top -->
-    <a href="#" class="btn btn-secondary btn-lg-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>
-
+    <a
+      href="#"
+      class="btn btn-secondary btn-lg-square rounded-circle back-to-top"
+      ><i class="fa fa-arrow-up"></i
+    ></a>
 
     <!-- JavaScript Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
@@ -301,9 +483,7 @@
     <script src="lib/counterup/counterup.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
-
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-</body>
-
+  </body>
 </html>
