@@ -914,3 +914,31 @@
     border-radius: 50%;
 }
 
+.elem_hover {
+    transition: transform 0.4s ease-out;
+    transform: translate(0, 0);
+}
+
+.elem_hover:hover {
+    transform: translate(8px, 10px);
+}
+
+/* background image */
+.bg-image {
+    position: relative;
+    z-index: 1;
+}
+
+.bg-image::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(../img/footerbg.png);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.2;
+    z-index: -1;
+}
