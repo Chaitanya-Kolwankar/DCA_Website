@@ -860,7 +860,7 @@
 
 /*** Footer Start ***/
 .footer {
-    background: #a2b9ed;;
+    background: #a2b9ed;
 }
 
 .footer .footer-item a {
@@ -894,8 +894,8 @@
 
 /*** copyright Start ***/
 .copyright {
-    border-top: 1px solid rgba(255, 255, 255, 0.08);
-    background: var(--bs-dark);
+    border-top: 1px solid #8dcdf7;
+    background: #8dcdf7;
 }
 /*** copyright end ***/
 
