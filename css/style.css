@@ -410,7 +410,7 @@
 .bg-breadcrumb {
     position: relative;
     overflow: hidden;
-    background: linear-gradient(rgba(0, 20, 66, 0.4), rgba(0, 20, 66, 0.5)), url(../img/otherhero.jpg);
+    background: linear-gradient(rgba(0, 23, 75, 0.1), rgba(0, 20, 66, 0.1)), url(../img/otherhero.jpg);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -936,9 +936,98 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url(../img/footerbg.png);
+    background-image: url(../img/bgpage.jpg);
     background-size: cover;
     background-position: center;
     opacity: 0.2;
     z-index: -1;
+}
+
+.bg-imagefooter {
+    position: relative;
+    z-index: 1;
+}
+
+.bg-imagefooter::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(../img/footerbg.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+/* Using '.carousel-item' as identified from your HTML structure */
+.carousel-item {
+    position: relative;
+    overflow: hidden; /* Ensures the animations stay within the carousel item */
+}
+
+/* Circular animation ::before pseudo-element */
+.carousel-item::before {
+    content: "";
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    top: -300px;
+    right: -300px;
+    border-radius: 300px;
+    border: 100px solid rgba(68, 210, 246, 0.2); /* Semi-transparent blue border */
+    animation: RotateMoveCircle 10s linear infinite;
+    background: transparent;
+    z-index: 2 !important; /* Ensures it appears above the image */
+}
+
+@keyframes RotateMoveCircle {
+    0% {
+        top: -400px; /* Starts higher */
+        right: -300px;
+    }
+    25% {
+        top: -300px;
+        right: -250px;
+    }
+    50% {
+        right: -200px; /* Moves to the left */
+        top: -300px;
+    }
+    75% {
+        top: -200px; /* Moves lower */
+        right: -250px;
+    }
+    100% {
+        top: -400px; /* Returns to start position */
+        right: -300px;
+    }
+}
+
+/* Diagonal stripe animation ::after pseudo-element */
+.carousel-item::after {
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 1200px; /* Tall to cover the diagonal */
+    top: -150px;
+    left: 70px;
+    transform: rotate(-30deg); /* Diagonal angle */
+    background: rgba(68, 210, 246, 0.2); /* Semi-transparent blue background */
+    animation: RotateMoveRight 5s linear infinite;
+    z-index: 2 !important; /* Ensures it appears above the image */
+}
+
+@keyframes RotateMoveRight {
+    0% {
+        left: 0px; /* Starts further left */
+    }
+    50% {
+        left: 70px; /* Moves right */
+    }
+    100% {
+        left: 0px; /* Returns to start */
+    }
 }
