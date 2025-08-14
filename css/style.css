@@ -860,7 +860,7 @@
 
 /*** Footer Start ***/
 .footer {
-    background: var(--bs-dark);
+    background: #a2b9ed;;
 }
 
 .footer .footer-item a {
@@ -958,7 +958,7 @@
     background-image: url(../img/footerbg.jpg);
     background-size: cover;
     background-position: center;
-    opacity: 0.8;
+    opacity: 0.6;
     z-index: -1;
 }
 
